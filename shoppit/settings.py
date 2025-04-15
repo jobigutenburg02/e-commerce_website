@@ -23,7 +23,7 @@ SECRET_KEY = 'django-insecure-smpjwp%6%frs2h-yd(5rb_ek=)hi(x#e^evvz(^v$@o_%5ssyo
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["my-e-commerce-website-dskw.onrender.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["my-e-commerce-website.onrender.com", "localhost", "127.0.0.1"]
 
 # Application definition
 
@@ -162,4 +162,4 @@ PAYPAL_CLIENT_ID = 'AfO9bo2ZumQnxqPYPpIvGGIKmUHeO5agGBOjrTvMEqGki3Z98vAiX1PB3yJN
 PAYPAL_CLIENT_SECRET = 'EH4Rp567DzjrI7bQqP7c-ieanU70bBPBQz_JBgUJ9gvqcmjhOp3IvX8ifmjyXsAQ5Fcq24lQmM6WmXYg'
 PAYPAL_MODE = 'sandbox'
 
-REACT_BASE_URL = os.getenv("REACT_BASE_URL", "https://localhost:5173")
+REACT_BASE_URL = os.getenv("REACT_BASE_URL", "http://localhost:5173")
